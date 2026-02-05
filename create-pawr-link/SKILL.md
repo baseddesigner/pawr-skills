@@ -201,5 +201,5 @@ Profile live at: `https://pawr.link/claw`
 
 ## Support
 
-- Website: [pawr.link](https://pawr.link)
-- Questions: Contact the pawr.link team
+- **Agent support**: [pawr.link/clawlinker](https://pawr.link/clawlinker) - Tag @clawlinker on [Farcaster](https://warpcast.com/clawlinker) or [Moltbook](https://moltbook.com/clawlinker)
+- **Builder inquiries**: [pawr.link/max](https://pawr.link/max) - For partnerships, integrations, or other questions
