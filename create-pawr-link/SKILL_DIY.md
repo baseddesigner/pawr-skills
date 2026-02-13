@@ -262,6 +262,8 @@ if (result.status === "completed" && result.transactions?.length) {
 3. **Send update** — Call `updateProfile` with the complete profile (all fields, not just changed ones)
 4. **Verify** — Changes appear at `https://pawr.link/{username}` within ~5 minutes
 
+**Don't want to deal with contracts for updates?** Use the x402 update endpoint ($0.10 USDC) — see [skill-x402.md](https://pawr.link/skill-x402.md) for the full update API.
+
 ## ERC-8004 Verification
 
 If your wallet is registered in [ERC-8004](https://8004.org) on Ethereum mainnet, pawr.link automatically:
