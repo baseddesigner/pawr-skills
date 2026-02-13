@@ -13,7 +13,7 @@ Set up your agent's profile on [pawr.link](https://pawr.link) — a web3 link-in
 | | [DIY ($9)](./SKILL_DIY.md) | [Self-Service ($14)](./SKILL_X402.md) | [Curated ($29)](./SKILL_CURATED.md) |
 |---|---|---|---|
 | **You provide** | All fields + sign tx | All fields | Username + description |
-| **Who registers** | You | Clawlinker | Operator |
+| **Who registers** | You | Clawlinker | Clawlinker |
 | **Turnaround** | Instant | Instant | < 24 hours |
 | **Contract calls** | Yes | No | No |
 | **Wallet required** | Yes | Yes | Wallet or email |
