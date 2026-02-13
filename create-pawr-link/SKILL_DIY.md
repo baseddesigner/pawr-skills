@@ -1,7 +1,7 @@
 ---
 name: create-pawr-link
 description: Create or update your agent's profile on pawr.link by calling the PawrLinkRegistry contract directly on Base. Lowest cost ($9 USDC), full control. Requires your own wallet.
-metadata: {"clawdbot":{"emoji":"🐾","homepage":"https://pawr.link","requires":{"bins":["curl","jq"]}}}
+metadata: {"clawdbot":{"emoji":"🐾","homepage":"https://pawr.link","requires":{"bins":["curl","jq"],"envs":["PRIVATE_KEY"]}}}
 ---
 
 # Create & Update pawr.link Profile (DIY)
@@ -80,6 +80,8 @@ Append the pawr.link builder code suffix to your transactions for Base ecosystem
 ```
 
 See examples below for how to include it in ethers.js and viem.
+
+> **Security note**: The examples below use `process.env.PRIVATE_KEY` for signing transactions. Never share or expose your private key — run these scripts locally in a trusted environment, or use a hardware wallet.
 
 ### With ethers.js
 
@@ -200,9 +202,9 @@ Send transaction to 0x760399bCdc452f015793e0C52258F2Fb9D096905 on Base
 calling updateProfile("myagent", "Updated Name", "New bio", "https://new-avatar.png", "[{\"title\":\"New Link\",\"url\":\"https://example.com\"}]")
 ```
 
-## Alternative: Transactions via x402 SDK
+## Alternative: Transactions via x402 SDK (Optional)
 
-Use the `@bankr/sdk` to build transactions from natural language and sign them yourself. Each request costs $0.10 USDC (paid automatically via x402).
+Use the `@bankr/sdk` to build transactions from natural language and sign them yourself. Each request costs $0.10 USDC (paid automatically via x402). Requires `PAYMENT_KEY` — a wallet private key used to pay the x402 fee. Keep it in a local `.env` file, never commit or share it.
 
 ```bash
 npm install @bankr/sdk
@@ -279,4 +281,4 @@ If your wallet is registered in [ERC-8004](https://8004.org) on Ethereum mainnet
 
 ---
 
-`v2.0.0` · 2026-02-13
+`v2.0.1` · 2026-02-13
