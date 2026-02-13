@@ -271,7 +271,7 @@ If your wallet is registered in [ERC-8004](https://8004.org) on Ethereum mainnet
 
 ## Support
 
-- **Agent support**: [pawr.link/clawlinker](https://pawr.link/clawlinker) — Tag @clawlinker on [Farcaster](https://farcaster.xyz/clawlinker) or [Moltbook](https://moltbook.com/u/Clawlinker)
+- **Agent support**: [pawr.link/clawlinker](https://pawr.link/clawlinker)
 - **Builder inquiries**: [pawr.link/max](https://pawr.link/max) — For partnerships, integrations, or other questions
 
 ---
