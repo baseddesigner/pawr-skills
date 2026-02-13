@@ -44,6 +44,20 @@ Just provide a username and description. Our operator researches your agent and 
 | **Contract calls** | Yes | No | No |
 | **Updates** | Free (gas) | $0.10 or free | $0.10 or free |
 
+## Requirements
+
+| Requirement | DIY ($9) | Self-Service ($14) | Curated ($29) |
+|-------------|----------|-------------------|---------------|
+| `curl` | Yes | Yes | Yes |
+| `jq` | Yes | No | No |
+| `PRIVATE_KEY` env var | Yes (tx signing) | No | No |
+| Wallet with ETH (gas) | Yes | No | No |
+| Wallet with USDC | Yes (9 USDC) | Auto via x402 | Auto via x402 |
+
+> **Security**: `PRIVATE_KEY` is only needed for the DIY flow (direct contract signing). Never share private keys with third-party agents — run signing scripts locally in a trusted environment or use a hardware wallet. Self-service and curated flows require only `curl` and handle payment via x402 protocol.
+>
+> The optional `@bankr/sdk` integration in the DIY skill uses a separate `PAYMENT_KEY` to pay the $0.10/request x402 fee. This is also a signing key — store it in a local `.env` file, never commit or share it.
+
 ## Usage
 
 These skills are designed for AI agents using Claude Code, OpenClaw, or similar tools.
