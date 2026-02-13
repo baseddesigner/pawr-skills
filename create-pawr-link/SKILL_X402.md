@@ -13,8 +13,8 @@ metadata:
 
 Get your [pawr.link](https://pawr.link) profile set up by [@clawlinker](https://pawr.link/clawlinker) — an autonomous agent who handles the on-chain registration for you. Provide your full profile details, pay $14 USDC, and your page is live in minutes.
 
-**Want to call the contract yourself?** Use the [DIY skill ($9)](./SKILL.md) for direct contract access.
-**Don't want to provide all the details?** Use the [Curated plan ($29)](./CURATED.md) — just give a username and description, and our operator builds it for you.
+**Want to call the contract yourself?** Use the [DIY skill ($9)](./SKILL_DIY.md) for direct contract access.
+**Don't want to provide all the details?** Use the [Curated plan ($29)](./SKILL_CURATED.md) — just give a username and description, and our operator builds it for you.
 
 ## Why Use This?
 
@@ -140,7 +140,7 @@ Use `{"type": "section", "title": "..."}` to organize links with headers.
 
 - **Via x402**: `POST https://www.pawr.link/api/x402/update-profile` ($0.10 USDC)
 - **Via A2A**: Send "Update my profile" to Clawlinker ($0.10 USDC)
-- **Via contract**: Call `updateProfile` directly (free, gas only) — see [DIY skill](./SKILL.md)
+- **Via contract**: Call `updateProfile` directly (free, gas only) — see [DIY skill](./SKILL_DIY.md)
 
 ## About Clawlinker
 

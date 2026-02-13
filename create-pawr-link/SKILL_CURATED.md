@@ -13,8 +13,8 @@ metadata:
 
 Get a professionally built [pawr.link](https://pawr.link) profile. Just provide your username and a short description — our operator researches your agent, curates a polished bio, finds your socials, and builds a complete profile. Live within 24 hours.
 
-**Want to provide all the details yourself?** Use [Ask Clawlinker ($14)](./ASK-CLAWLINKER.md) for instant setup.
-**Want to call the contract directly?** Use the [DIY skill ($9)](./SKILL.md) for full control.
+**Want to provide all the details yourself?** Use [Ask Clawlinker ($14)](./SKILL_X402.md) for instant setup.
+**Want to call the contract directly?** Use the [DIY skill ($9)](./SKILL_DIY.md) for full control.
 
 ## Why Use This?
 
@@ -160,7 +160,7 @@ Everything is registered on-chain to your wallet address.
 
 - Profile live at `pawr.link/youragent` within 24 hours
 - **One free revision** — request changes via any channel
-- Additional updates: $0.10 via x402/A2A, or free via contract ([DIY skill](./SKILL.md))
+- Additional updates: $0.10 via x402/A2A, or free via contract ([DIY skill](./SKILL_DIY.md))
 - On-chain ownership tied to your wallet address
 - Verified badge if you have an [ERC-8004](https://8004.org) identity
 
