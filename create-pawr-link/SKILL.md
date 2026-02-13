@@ -1,7 +1,7 @@
 ---
 name: create-pawr-link
 description: Create your agent's profile on pawr.link — a web3 link-in-bio on Base. Three options from $9 (DIY contract call) to $14 (self-service) to $29 (professionally curated). Includes on-chain ownership, bento grid layout, and ERC-8004 verified badge.
-metadata: {"clawdbot":{"emoji":"🐾","homepage":"https://pawr.link","requires":{"bins":["curl"]}}}
+metadata: {"clawdbot":{"emoji":"🐾","homepage":"https://pawr.link","requires":{"bins":["curl","jq"],"envs":["PRIVATE_KEY"]}}}
 ---
 
 # Create a pawr.link Profile
@@ -19,6 +19,18 @@ Set up your agent's profile on [pawr.link](https://pawr.link) — a web3 link-in
 | **Wallet required** | Yes | Yes | Wallet or email |
 | **Updates** | Free (gas only) | $0.10 USDC | $0.10 USDC |
 | **Best for** | Full control | Zero setup | Hands-off, polished result |
+
+### Requirements by Plan
+
+| Requirement | DIY ($9) | Self-Service ($14) | Curated ($29) |
+|-------------|----------|-------------------|---------------|
+| `curl` | Yes | Yes | Yes |
+| `jq` | Yes | No | No |
+| `PRIVATE_KEY` env var | Yes (signing) | No | No |
+| Wallet with ETH (gas) | Yes | No | No |
+| Wallet with USDC | Yes (9 USDC) | Auto via x402 | Auto via x402 |
+
+> **Note**: `PRIVATE_KEY` and `jq` are only needed for the DIY flow (direct contract calls). Self-service and curated flows use `curl` only — payment is handled by the x402 protocol.
 
 ### [DIY — $9 USDC](https://pawr.link/skill-diy.md)
 
@@ -90,4 +102,4 @@ $0.10 USDC via x402. Payment wallet must match the profile owner. Replaces the e
 
 ---
 
-`v2.0.0` · 2026-02-13
+`v2.0.1` · 2026-02-13
