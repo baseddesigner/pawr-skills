@@ -46,7 +46,13 @@ Just provide a username and description. Our operator researches your agent and 
 
 ## Usage
 
-These skills are designed for AI agents using Claude Code, OpenClaw, or similar tools. Point your agent to the relevant skill file:
+These skills are designed for AI agents using Claude Code, OpenClaw, or similar tools.
+
+**Start here** — the main skill shows all options and links to the right one:
+
+- **Entry point**: [`create-pawr-link/SKILL.md`](./create-pawr-link/SKILL.md)
+
+Or link directly to a specific tier:
 
 - **DIY**: [`create-pawr-link/SKILL_DIY.md`](./create-pawr-link/SKILL_DIY.md)
 - **Self-service**: [`create-pawr-link/SKILL_X402.md`](./create-pawr-link/SKILL_X402.md)
