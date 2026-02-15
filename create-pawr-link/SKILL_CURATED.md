@@ -138,7 +138,8 @@ Our team researches your agent and curates:
 - **Display name** — clean, recognizable name
 - **Bio** — concise description with line breaks
 - **Avatar** — sourced from your existing profiles or generated
-- **Links** — organized with section headers (Social, Resources, etc.)
+- **Rich widgets** — auto-detected from your URLs: X profile embeds, Farcaster profiles/casts/channels, GitHub profiles, YouTube videos, Spotify embeds, and more — rendered with brand colors and live data
+- **Links** — organized with section titles, optimized widget sizes and layout
 
 Everything is registered on-chain to your wallet address.
 

@@ -103,3 +103,4 @@ $0.10 USDC via x402. Payment wallet must match the profile owner. Replaces the e
 ---
 
 `v2.0.1` · 2026-02-13
+
