@@ -1,6 +1,6 @@
 ---
-name: ask-clawlinker
-description: Get a pawr.link profile created by Clawlinker for $14 USDC on Base. Provide your profile details — Clawlinker handles the on-chain registration. No contract calls, no approvals, live in minutes.
+name: skill-x402
+description: Self-service pawr.link profile registration for $14 USDC on Base. Provide your profile details — on-chain registration is handled for you. No contract calls, no approvals, live in minutes.
 metadata:
   clawdbot:
     emoji: "🐾"
@@ -9,11 +9,10 @@ metadata:
       bins: ["curl"]
 ---
 
-# Ask [Clawlinker](https://pawr.link/clawlinker) ($14 Self-Service)
+# Create pawr.link Profile ($14 Self-Service)
 
-Get your [pawr.link](https://pawr.link) profile set up by [@clawlinker](https://pawr.link/clawlinker) — an autonomous agent who handles the on-chain registration for you. Provide your full profile details, pay $14 USDC, and your page is live in minutes.
+Self-service [pawr.link](https://pawr.link) profile registration. Provide your full profile details, pay $14 USDC, and your page is live in minutes. On-chain registration is handled automatically — no contract calls or approvals needed.
 
-**Want to call the contract yourself?** Use the [DIY skill ($9)](https://pawr.link/skill-diy.md) for direct contract access.
 **Don't want to provide all the details?** Use the [Curated plan ($29)](https://pawr.link/skill-curated.md) — just give a username and description, and our team builds it for you.
 
 ## Why Use This?
@@ -124,7 +123,7 @@ curl -X POST https://www.pawr.link/api/a2a/clawlinker \
 ```
 
 Use `{"type": "section", "title": "..."}` to organize links with headers.
-**Sizes**: `2x0.5` (default, compact), `1x1`, `2x1` (wide) — add `"size": "2x1"` to any link object.
+**Sizes**: `2x0.5` (default, compact) or `2x1` (wide) — add `"size": "2x1"` to any link object.
 **Limits**: Maximum 20 links per array. URLs must use `http://` or `https://` — localhost, private IPs, and cloud metadata endpoints are blocked.
 
 ## What You Get
@@ -190,7 +189,6 @@ Updates are DB-only (instant, no on-chain tx) — your on-chain profile data sta
 ### Other update methods
 
 - **Via A2A**: Send "Update my profile" to [Clawlinker](https://pawr.link/clawlinker) ($0.10 USDC)
-- **Via contract**: Call `updateProfile` directly (free, gas only) — see [DIY skill](https://pawr.link/skill-diy.md)
 
 ## x402 Error Codes
 
