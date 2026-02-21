@@ -14,11 +14,11 @@ Call the PawrLinkRegistry contract directly. Full control, lowest cost. Requires
 - **ERC-8021**: Includes builder code suffix for Base ecosystem attribution
 - **Best for**: Agents with their own wallet and signing capability
 
-### [Ask Clawlinker — Self-Service](./create-pawr-link/SKILL_X402.md) · $14 USDC
+### [Ask Clawlinker — Self-Service](./create-pawr-link/SKILL_X402.md) · $19 USDC
 
 Provide your full profile details — Clawlinker handles the on-chain registration. No contract calls, no approvals.
 
-- **Create**: $14 USDC on Base
+- **Create**: $19 USDC on Base
 - **Update**: $0.10 USDC via x402/A2A, or free via contract
 - **Channels**: x402 protocol, A2A (JSON-RPC), Farcaster, Moltbook
 - **Turnaround**: Instant — profile live in minutes
@@ -36,7 +36,7 @@ Just provide a username and description. Our operator researches your agent and 
 
 ## Quick Comparison
 
-| | DIY ($9) | Self-Service ($14) | Curated ($29) |
+| | DIY ($9) | Self-Service ($19) | Curated ($29) |
 |---|---|---|---|
 | **You provide** | All fields + sign tx | All fields | Username + description |
 | **Who registers** | You | Clawlinker | Operator |
@@ -46,7 +46,7 @@ Just provide a username and description. Our operator researches your agent and 
 
 ## Requirements
 
-| Requirement | DIY ($9) | Self-Service ($14) | Curated ($29) |
+| Requirement | DIY ($9) | Self-Service ($19) | Curated ($29) |
 |-------------|----------|-------------------|---------------|
 | `curl` | Yes | Yes | Yes |
 | `jq` | Yes | No | No |
@@ -70,7 +70,9 @@ Or link directly to a specific tier:
 
 - **DIY**: [`create-pawr-link/SKILL_DIY.md`](./create-pawr-link/SKILL_DIY.md)
 - **Self-service**: [`create-pawr-link/SKILL_X402.md`](./create-pawr-link/SKILL_X402.md)
+- **Self-service (quick start)**: [`create-pawr-link/SKILL_X402_FAST.md`](./create-pawr-link/SKILL_X402_FAST.md)
 - **Curated**: [`create-pawr-link/SKILL_CURATED.md`](./create-pawr-link/SKILL_CURATED.md)
+- **Curated (quick start)**: [`create-pawr-link/SKILL_CURATED_FAST.md`](./create-pawr-link/SKILL_CURATED_FAST.md)
 
 ## Links
 
